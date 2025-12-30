@@ -1,0 +1,8 @@
+# No custom services defined yet.
+# The integration uses standard Home Assistant entities (fan, switch, sensor, number)
+# which provide all necessary functionality through their built-in services.
+#
+# Standard services available:
+# - fan.turn_on / fan.turn_off / fan.set_percentage
+# - switch.turn_on / switch.turn_off
+# - number.set_value (for brightness control)

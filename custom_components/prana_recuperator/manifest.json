@@ -1,0 +1,13 @@
+{
+  "domain": "prana_recuperator",
+  "name": "Prana Recuperator",
+  "codeowners": [],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/your-repo/prana_recuperator",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/your-repo/prana_recuperator/issues",
+  "requirements": ["aiohttp>=3.8.0"],
+  "version": "1.0.0",
+  "zeroconf": ["_prana._tcp.local."]
+}

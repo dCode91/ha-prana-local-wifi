@@ -1,0 +1,113 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Prana Recuperator",
+        "description": "Set up your Prana Recuperator device",
+        "data": {
+          "host": "Host (IP Address)",
+          "name": "Device Name"
+        }
+      },
+      "zeroconf_confirm": {
+        "title": "Discovered Prana Recuperator",
+        "description": "A Prana Recuperator device was discovered at {host}.\n\nDo you want to set up this device?",
+        "data": {
+          "name": "Device Name"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Failed to connect to the device. Please check the IP address and make sure the device is powered on.",
+      "unknown": "An unexpected error occurred."
+    },
+    "abort": {
+      "already_configured": "This device is already configured.",
+      "cannot_connect": "Cannot connect to the discovered device."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Prana Recuperator Options",
+        "data": {
+          "name": "Device Name"
+        }
+      }
+    }
+  },
+  "entity": {
+    "switch": {
+      "bound": {
+        "name": "Bound Mode"
+      },
+      "heater": {
+        "name": "Heater"
+      },
+      "winter": {
+        "name": "Winter Mode"
+      },
+      "auto": {
+        "name": "Auto Mode"
+      },
+      "auto_plus": {
+        "name": "Auto+ Mode"
+      },
+      "night": {
+        "name": "Night Mode"
+      },
+      "boost": {
+        "name": "Boost Mode"
+      }
+    },
+    "sensor": {
+      "inside_temperature": {
+        "name": "Inside Temperature"
+      },
+      "inside_temperature_2": {
+        "name": "Inside Temperature 2"
+      },
+      "outside_temperature": {
+        "name": "Outside Temperature"
+      },
+      "outside_temperature_2": {
+        "name": "Outside Temperature 2"
+      },
+      "humidity": {
+        "name": "Humidity"
+      },
+      "co2": {
+        "name": "CO2"
+      },
+      "voc": {
+        "name": "VOC"
+      },
+      "air_pressure": {
+        "name": "Air Pressure"
+      },
+      "extract_speed": {
+        "name": "Extract Speed"
+      },
+      "supply_speed": {
+        "name": "Supply Speed"
+      },
+      "bounded_speed": {
+        "name": "Bounded Speed"
+      }
+    },
+    "number": {
+      "brightness": {
+        "name": "Display Brightness"
+      },
+      "supply_speed_control": {
+        "name": "Supply Fan Speed"
+      },
+      "extract_speed_control": {
+        "name": "Extract Fan Speed"
+      },
+      "bounded_speed_control": {
+        "name": "Recuperator Speed"
+      }
+    }
+  }
+}

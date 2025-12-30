@@ -1,0 +1,10 @@
+{
+  "name": "Prana Recuperator",
+  "homeassistant": "2024.1.0",
+  "render_readme": true,
+  "iot_class": "local_polling",
+  "domains": ["fan", "sensor", "switch", "number"],
+  "country": ["UA"],
+  "zip_release": true,
+  "filename": "prana_recuperator.zip"
+}
