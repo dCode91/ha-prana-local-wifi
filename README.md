@@ -195,10 +195,10 @@ This integration uses the Prana Recuperator Local API. The device announces itse
 ## Troubleshooting
 
 ### Device not discovered
-
-1. Ensure your device is connected to the same network as Home Assistant
-2. Check that mDNS/Bonjour is not blocked on your network
-3. Try manual configuration using the device's IP address
+1. Check the firmware version. Local API works only starting with Version 47.
+2. Ensure your device is connected to the same network as Home Assistant
+3. Check that mDNS/Bonjour is not blocked on your network
+4. Try manual configuration using the device's IP address
 
 ### Cannot connect
 
